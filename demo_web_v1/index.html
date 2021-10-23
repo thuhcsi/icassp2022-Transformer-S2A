@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>RenderedDemos</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body bgcolor="#E6E6FA">
+	<div class='container'>
+		<div class="row justify-content-center alert alert-primary" role="alert">
+			<h3 class="alert-heading">
+				Transformer-S2A: Robust and Efficient Speech-to-Animation
+			</h3>
+			<h5 class="mb-0">
+				Liyang Chen, Zhiyong Wu, Jun Ling, Runnan Li, Xu Tan, Sheng Zhao
+			</h5>
+			<h5 class="mb-0">
+				Digital Domain creates the digital avatar and provides all rendering demos
+			</h5>
+		</div>
+	</div>
+
+	<div class="container alert alert-warning" role="alert">
+		<div class="row justify-content-md-center">
+			<h3>Speak Mandarin</h3>
+		</div>
+		<div>
+			<p class="mb-0 text-center">The proposed model and baseline are trained on Mandarin dataset.</p>
+			<p class="mb-0 text-center">Upper: baseline (frame-level). Lower: proposed.</p>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="media">
+		  		<video width="960" height="540" class="mr-3" controls>
+	  				<source src="demos/frameLevel.mp4" type="video/mp4">
+				</video>
+			  	<div class="media-body">
+				    <h5 class="mt-0">Frame Level</h5>
+					随着年轻人聚集，县城就可以不断滚动提升，最终实现真正的品质提升。
+			  	</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="media">
+		  		<video width="960" height="540" class="mr-3" controls>
+	  				<source src="demos/seqLevel.mp4" type="video/mp4">
+				</video>
+			  	<div class="media-body">
+				    <h5 class="mt-0">Proposed</h5>
+					随着年轻人聚集，县城就可以不断滚动提升，最终实现真正的品质提升。
+			  	</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container alert alert-warning" role="alert">
+		<div class="row justify-content-md-center">
+			<h3>Transfer to Unseen Speaker and Language (English)</h3>
+		</div>
+		<div>
+			<p class="mb-0 text-center">The proposed S2A model is only trained on Madarian dataset.</p>
+			<p class="text-center">The compared baseline (LipSync3D) is trained on English dataset.</p>
+			<p class="text-center">Left: proposed. Right: LipSync3D.</p>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="media">
+		  		<video width="960" height="540" class="mr-3" controls>
+	  				<source src="demos/comparison.mp4" type="video/mp4">
+				</video>
+			  	<div class="media-body">
+				    <h5 class="mt-0">Transcription</h5>
+					I can’t promise that I’ll be an expert at it and be able to help you get better with it, but at least we can have some fun.
+			  	</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container alert alert-warning" role="alert">
+		<div class="row justify-content-md-center">
+			<h3>Alibility to Sing</h3>
+		</div>
+		<div>
+			<p class="mb-0 text-center">Only trained on Mandarin talking dataset.</p>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="media">
+		  		<video width="960" height="540" class="mr-3" controls>
+	  				<source src="demos/sing.mp4" type="video/mp4">
+				</video>
+			  	<div class="media-body">
+				    <h5 class="mt-0">Transcription</h5>
+					终于做了这个决定，别人怎么说我不理，只要你也一样的肯定 ——《勇气》歌词
+			  	</div>
+			</div>
+		</div>
+	</div>
+		
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

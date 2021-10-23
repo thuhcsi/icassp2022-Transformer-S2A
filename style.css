@@ -1,0 +1,83 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.title-box {
+    background-color: #0c488c;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-left: 20px #0c488c solid;
+    border-bottom: 20px #0c488c solid;
+}
+
+.title-box img{
+    border-top: 20px #0c488c solid;
+
+    position: relative;
+}
+
+#paper-title {
+    font-weight: 700;
+    font-size: 26px;
+
+    position: relative;
+}
+
+#submit {
+    font-weight: 700;
+    font-size: 23px;
+
+    position: relative;
+}
+
+#ack {
+    font-weight: 700;
+    font-size: 18;
+
+    position: relative;
+}
+
+#ack a{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+#ack a:visited{
+    color: #ffffff;
+}
+
+.single-demo {
+    background-color: #b7c8dd;
+    border-left: 20px #b7c8dd solid;
+}
+
+.media{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.notion{
+    float: right;
+    width: 29%;
+    box-sizing: border-box;
+}
+
+#link_lyric {
+    text-decoration: underline;
+    color: black;
+}
+
+#link_lyric:visited {
+    color: black;
+}
+
+.clear {
+    clear: both;
+    }
